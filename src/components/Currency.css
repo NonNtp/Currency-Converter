@@ -1,0 +1,28 @@
+body {
+	display: flex;
+	background: #f4f4f4;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+.currency {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 0;
+	align-items: center;
+}
+.currency select {
+	padding: 10px 20px 10px 10px;
+	border: 1px solid #dedede;
+}
+.currency input {
+	text-align: right;
+	font-size: 30px;
+	display: block;
+	width: 40%;
+	border: 1px solid #dedede;
+}
